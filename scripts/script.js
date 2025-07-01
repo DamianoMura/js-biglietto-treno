@@ -13,3 +13,8 @@ age=parseInt(prompt("inserisci la tua età"));
 //calcoliamo il prezzo senza sconti
 price= distance * pricePerKm;
 
+//verifichiamo eventuali sconti
+if (age<18){
+  let discount = price / 100 * 20;  //troviamo il 20% 
+  price = price - discount;         //applichiamo lo sconto
+ }
