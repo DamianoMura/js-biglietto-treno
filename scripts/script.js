@@ -9,3 +9,7 @@ alert("Benvenuto nella biglietteria di CrazyTrain \n premi ok per selezionare la
 //inseriamo i dati
 distance=parseInt(prompt("inserisci la distanza che vuoi percorrere in km"));
 age=parseInt(prompt("inserisci la tua età"));
+
+//calcoliamo il prezzo senza sconti
+price= distance * pricePerKm;
+
