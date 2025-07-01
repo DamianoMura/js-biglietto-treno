@@ -23,3 +23,6 @@ else if (age>65){
   price = price - discount;        //applichiamo lo sconto
 }
 
+//per tutti gli altri non serve fare calcoli in quanto lo abbiamo già fatto prima delle condizioni
+alert ("il prezzo della tratta selezionata (" + `${distance}` + ") per la tua età ("+ `${age}` + ") è di " + `${price}` + " euro");
+
