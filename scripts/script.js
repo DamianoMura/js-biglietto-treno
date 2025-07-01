@@ -24,5 +24,5 @@ else if (age>65){
 }
 
 //per tutti gli altri non serve fare calcoli in quanto lo abbiamo già fatto prima delle condizioni
-alert ("il prezzo della tratta selezionata (" + `${distance}` + ") per la tua età ("+ `${age}` + ") è di " + `${price}` + " euro");
+alert ("il prezzo della tratta selezionata (" + `${distance}` + " km) per la tua età ("+ `${age}` + ") è di " + `${price}` + " euro");
 
