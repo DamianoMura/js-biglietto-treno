@@ -18,3 +18,8 @@ if (age<18){
   let discount = price / 100 * 20;  //troviamo il 20% 
   price = price - discount;         //applichiamo lo sconto
  }
+else if (age>65){
+  let discount = price / 100 * 40; //troviamo il 40%
+  price = price - discount;        //applichiamo lo sconto
+}
+
